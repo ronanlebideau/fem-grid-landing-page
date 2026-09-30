@@ -7,7 +7,6 @@
 }
 body{
     background-color:#2854fd;
-    overflow-y:hidden;
     scrollbar-width:none;
 }
 .opacity-70{
@@ -157,7 +156,7 @@ nav{
     position:absolute;
     background-color:rgba(0,0,0,.5);
     height:100vh;
-    width:100%;
+    width:98%;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 100px 1fr 1fr 100px;
@@ -169,7 +168,9 @@ nav{
     z-index:-1;
     opacity:0;
     transition:all .5s ease;
-    transform:translateX(1%);
+}
+.full-width{
+    width:99.9%;
 }
 .above{
     z-index:2;

@@ -118,7 +118,6 @@ h1{
 }
 .square-box:hover{
     background-color:rgba(255, 255, 255, 0.05);
-    transition:0.3s ease-in-out;
 }
 .box-head{
     width:100%;
